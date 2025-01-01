@@ -1,0 +1,298 @@
+/* all pages */
+body {
+     
+      background-image: url(img/pexels-lamiko-3616764.jpg);
+      font-family: 'Playfair Display';
+      text-align: center;
+      line-height: 2;
+    
+        
+    }
+ img:hover{
+      opacity: 0.5;
+}
+nav a {
+  display: inline;
+  padding-left: 50px;
+  font-size: x-large;
+ }
+ nav{
+  background-color: whitesmoke;
+ }
+
+ h1{
+  padding-bottom: 30px;
+  font-size: 100Px;
+  color:#07204A ;
+ }
+ footer p{
+  font-size: medium;
+ }
+ a{
+  color:#1E5289;
+  font-weight: 500;
+ }
+ footer {
+  font-size: medium;
+  background-color:whitesmoke;
+height: 40px;
+padding-bottom: 0;
+ }
+ #copyright{
+  text-transform:lowercase ;
+font-style: oblique;
+}
+#cont,#pro,#home,#art,#exh{
+  text-decoration: underline;
+}
+/* home */
+   #p1 header{
+  padding-bottom: 50px;
+ }
+ #p1 article img {
+  width: 700PX;
+  opacity: 1;
+ }
+ #p1 .links  a{
+  font-size: x-large;
+  color: rgb(30 82 137);
+text-decoration: underline;
+ }
+ #p1 article p{
+  font-size: large;
+ }
+ #p1 section{
+  padding-top: 80Px;
+  padding-bottom: 80PX;
+  line-height: 2;
+ }
+ 
+ #p1 a:hover{
+ color: #484B46;
+ }
+ #p1 blockquote{
+  font-size: xx-large;
+  text-transform: lowercase;
+}
+#p1 blockquote::first-letter{
+  font-size:50px;
+  text-transform: capitalize;
+  font-weight: 200;
+ 
+}
+#p1 img:hover{
+  opacity: 0.5;
+}
+/*exhibits */
+.p2 .p{
+  font-size: xx-large;
+}
+.p2 li{
+  font-size: xx-large;
+  text-decoration: underline #1E5289 ;
+  line-height: 2;
+}
+.p2 span{
+  color: #74A2BE;
+}
+.p2  section{
+ 
+ padding: 100Px;
+}
+  /* contact*/
+
+#contact table td ,th{
+  border: #484B46 solid 1px;
+}
+#contact table{
+ 
+  border-radius: 14px;
+}
+#contact{
+  text-align: center;
+}
+#contact table{
+  width:800px;
+  height: 350px;
+ margin:0 auto;
+}
+
+ table td,th{
+  padding: 40px;
+  font-size: x-large;
+  
+}
+table th{
+  font-weight: bold;
+  background-color:#07204A;
+  color: aliceblue;
+  opacity: 1;
+}
+tr:nth-last-child(2N){
+  background-color: #F7F7F7 ;
+}
+tr :hover{
+  background-color: gainsboro;
+  opacity:0.5 ;
+}
+th:hover {
+  color: #1E5289;
+}
+#contact .epi img{
+  height: auto;
+   width: 40PX;
+   padding-top: 40PX;
+ }
+
+ 
+
+/* profil*/
+#profil fieldset{
+  margin: 0 auto;
+  width: 400px;
+  border: #1E5289 double 4px;
+  border-radius: 14px ;
+  padding: 5px;
+}
+fieldset legend{
+  font-size: xx-large;
+  color: #1E5289;
+
+}
+label{
+  font-size: large;
+}
+ #profil .btn{
+  margin: 40px;
+  width: 100px;
+  height: 40px;
+  border-radius: 14px ;
+  background-color: #1E5289  ;
+  color: #F7F7F7;
+}
+#a{
+  height: 250px;
+
+}
+#b{
+  height: 200px;
+}
+#c{
+  height: 230px;
+}
+#rafraichir{
+  margin: 40px;
+  width: 100px;
+  height: 40px;
+  border-radius: 14px ;
+  background-color:#F7F7F7  ;
+  color: #1E5289;
+
+}
+#rafraichir:hover{
+  opacity: 0.4;
+  background-color: #74A2BE;
+}
+#profil .btn:hover{
+  opacity: 0.4;
+  background-color:#1E5289;
+
+}
+#profil textarea{
+  border: #F7F7F7;
+  border-radius: 5px;
+  padding: 10px;
+}
+#profil textarea:hover{
+  background-color: #74A2BE;
+}
+input,select
+{
+ 
+  border-radius: 6px;
+  width: 200px;
+  color:#1E5289;
+  border-color: #74A2BE;
+}
+
+
+#erreur{
+  display:none;
+  color: red;
+  margin-bottom: 10px;
+  font-size: x-large;
+}
+/* classic ,modern art */
+.mm{
+  font-size: x-large;
+}
+.sec{
+  padding: 0 100Px  30PX 100px;
+}
+.pp{
+  font-size:x-large;
+  color: #1E5289;
+  font-weight: bolder;
+  border-bottom: #1E5289 solid ;
+}
+
+ 
+.aya{
+  font-weight: bolder;
+  color: #74A2BE;
+}
+ .k .cont {
+  display: inline;
+  position: relative;
+  float: left;
+  margin: 50px;
+  width: 40%; 
+}
+.m {
+  padding-right: 60PX;
+}
+
+.k .cont img {
+  
+  height: 300PX;
+  width: 500px;
+}
+
+
+ .k .cont :last-child{
+  font-size: 20PX;
+ }
+  .back{
+    width: 70Px;
+  }
+  
+
+/* artists*/
+.artists .cont{
+  display: inline;
+  position: relative;
+  float: left;
+  margin: 20px;
+  width: 30%; 
+}
+.artists section
+{
+  padding-left:50px ;
+  padding-bottom: 900PX;
+
+}
+.artists img{
+  height: 300PX;
+  width: 350px;
+}
+.artists .cont :first-child{
+  font-weight: bolder;
+  color: #1E5289;
+  font-size: xx-large;
+  text-decoration: underline;
+}
+.artists .cont :first-child:hover{
+  color: #74A2BE;
+  text-decoration: line-through;
+}
+

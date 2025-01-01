@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/images-removebg-preview.png" type="image">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
+    <title>profil page</title>
+   
+</head>
+<body id="profil">
+    <nav>
+        <a  href="index.html">Home </a>
+       
+            <a href="exhibits.html" >Exhibits </a>
+           
+             <a href="Artists.html" >Artists </a>
+           
+             <a href="profil.html"  id="pro">Profile </a>
+          
+            <a href="contact.html"  >Contact </a>
+       
+</nav>
+    <h1>Join Our Art Community</h1>
+    
+    <form >
+        <fieldset id="a">
+            <legend>Visitor Login</legend>
+            <div>
+            <label for="pseudo">Username :</label>
+            <input type="text" name="pseudo"   id="pseudo" class="champ">
+        </div>
+        <div>
+            <label for="mail">Email address :</label>
+            <input type="text" name="mail" id="mail" required class="champ">
+        </div>
+        <div>
+            <label for="mdp">Password :</label>
+            <input type="password" name="mdp" id="mdp" class="champ">
+        </div>
+        <div>
+            <label for="confirmation"> Confirn password :</label>
+            <input type="password" name="confirmation"  id="confirmation" class="champ">
+        </div>
+        </fieldset>
+        <fieldset id="b">
+            <legend>Explore Artwork </legend>
+            <div>
+                <label for="style">Preferred Art Style :</label>
+                <select name="style" id="style" >
+                   
+                    <option value="Surrealism">Surrealism</option>
+                    <option value="Abstract">Abstract</option>
+                    <option  value="Renaissance">Renaissance</option>
+                    <option selected value="Not_a_specific_style">Not a specific style</option>
+                </select>
+
+            </div>
+            <div>
+                <label for="fv">Favorite Artist :</label>
+                <input type="text" id="fv" name="fv">
+            </div>
+
+
+        </fieldset>
+        <fieldset id="c">
+            <legend>Submit Feedback</legend>
+            <div>
+                <label for="feedback">Rate your experience :</label>
+                <input type="range" min="1" max="5" id="feedback" name="feedback" step="0.5" value="5" >
+            </div>
+            <div>
+               
+                <textarea name="cmt" id="cmt" placeholder="Write your feedback or suggestions here..." cols="40" rows="2"></textarea>
+            </div>
+
+        </fieldset>
+      <div id="erreur">
+        <p> Please fix the errors in the form before submitting!</p>
+    </div>
+            <input class="btn" type="submit"  id="submit" value="Submit">
+            <input type="reset"    id="rafraichir" value="Reset">
+      
+    </form>
+    
+    <footer id="copyright">
+        <p>ⓒ 2024 Artistry Haven. All Rights Reserved.</p>
+    </footer>
+    <script src="jquery .js" type="text/javascript"></script>
+    <script src="index.js"></script>
+</body>
+</html>
